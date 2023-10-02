@@ -30,7 +30,7 @@ const Products = () => {
               name="Balance"
               categories={balanceCategories}
               schema="/accounts/balance/get/"
-              description="Check balances in real time to prevent non-sufficient funds fees."
+              description="Check balances in real time."
               transformData={transformBalanceData}
           />
       )}
